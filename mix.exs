@@ -24,9 +24,9 @@ defmodule ExBitstamp.Mixfile do
 
   defp deps do
     [
-      {:httpoison, "~> 0.12.0"},
+      {:httpoison, "~> 0.13.0"},
       {:json,"~> 1.0"},
-      {:exvcr, "~> 0.8", only: :test},
+      {:exvcr, "~> 0.10", only: :test},
       {:credo, "~> 0.8.4", only: [:dev, :test], runtime: false},
       {:ex_doc, "~> 0.16.2", only: :dev, runtime: false},
       {:mix_test_watch, "~> 0.5", only: :dev, runtime: false}
